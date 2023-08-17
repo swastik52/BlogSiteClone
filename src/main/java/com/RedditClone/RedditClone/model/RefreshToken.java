@@ -7,6 +7,7 @@ import javax.persistence.*;
 import java.time.Instant;
 
 @Data
+@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 public class RefreshToken {

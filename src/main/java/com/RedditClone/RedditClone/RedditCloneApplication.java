@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @EnableAsync
-@Import(OpenAPIConfiguration.class)
+//@Import(OpenAPIConfiguration.class)
 @SpringBootApplication
 public class RedditCloneApplication {
 
