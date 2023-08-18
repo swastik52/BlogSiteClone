@@ -10,7 +10,6 @@ import java.time.Instant;
 @NoArgsConstructor
 @Entity
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
